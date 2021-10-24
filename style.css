@@ -1,0 +1,48 @@
+body{
+    background-color: #a0a0a0;
+}
+ul{
+    list-style: none;
+}
+#container{
+    font-family: 'Source Code Pro', monospace;
+    height: auto;
+    margin-left: 31%;
+    margin-right: 33%;
+    margin-top: 5%;
+    padding: 39px;
+    background-color: #bf40bf;
+    color: white;
+    border-radius: 33px;
+    
+}
+
+#nameAdd{
+    width: 250px;
+    height: 15px;
+    font-family: 'Source Code Pro', monospace;
+}
+#display{
+    text-transform: uppercase;
+
+
+}
+button{
+    font:inherit
+}
+.add {
+    position: relative;
+    border-radius: 0.5em;
+    cursor: pointer;
+    margin: 0 0.8em;
+    padding: 0.5em;
+    background-color: rgb(189, 53, 128);
+    color: white;
+    border: 0;
+    text-shadow: 2px 2px 2px rgb(0, 255, 255);
+    box-shadow: 2px 2px 0 1px black;
+  }
+.add:active {
+    box-shadow: 0 0 0 0 black, inset 1px 1px 1px 2px black;
+    transform: translate(1.5px, 1.5px);
+}
